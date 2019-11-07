@@ -182,7 +182,7 @@
   </h1>
   
   <article class="passage-article">
-    <h4 id="背景"><a href="#背景" class="headerlink" title="背景"></a>背景</h4><p>在浏览器路由跳转时有时候会通过在<code>sessionStorage</code>中读取用户信息判断用户是否已登录，来确定是否需要跳转到登录页签，但当你在一个浏览器页签里面登录之后，打开新的页签再访问此网站，会发现网站竟然跳转到了登录页，这是为什么呢？<br>这是因为<code>sessionStorage</code>内存储的数据只能存在于当前浏览器页签中，打开新的同源网站时候，并不能共享已存储的数据。此时就需要想办法去同步页签之间的数据。</p>
+    <h4 id="背景"><a href="#背景" class="headerlink" title="背景"></a>背景</h4><p>在浏览器路由跳转时有时候会通过在<code>sessionStorage</code>中读取用户信息判断用户是否已登录，来确定是否需要跳转到登录页面，但当你在一个浏览器页签里面登录之后，打开新的页签再访问此网站，会发现网站竟然跳转到了登录页，这是为什么呢？<br>因为<code>sessionStorage</code>内存储的数据只能存在于当前浏览器页签中，打开新的同源网站时候，并不能共享已存储的数据。此时就需要想办法去同步页签之间的数据。</p>
 <h4 id="为什么不用localStorage"><a href="#为什么不用localStorage" class="headerlink" title="为什么不用localStorage"></a>为什么不用<code>localStorage</code></h4><p><code>localStorage</code>与<code>sessionStorage</code>就像一对双胞胎一样，长相行为都特别相似，但两者也存在着一定的区别。</p>
 <ul>
 <li><code>sessionStorage</code>在浏览器关闭之后，存储在里面的数据会自动清空，不会留下痕迹，而<code>localStorage</code>在关闭浏览器之后会保留存储的数据，下次打开浏览器数据依然存在</li>
@@ -340,7 +340,7 @@
 
 <div class="bottom-bar">
   <div class="bottom-bar-left">
-    <a href="javascript:void(0);" target="_blank" rel="noopener" data-enable="false">
+    <a href="/2019/11/07/%E4%B8%80%E6%AE%B5%E4%BB%A3%E7%A0%81%E4%BA%86%E8%A7%A3Vue%E7%94%9F%E5%91%BD%E5%91%A8%E6%9C%9F/" data-enable="true">
       <i class="fa fa-arrow-left"></i>
     </a>
     <a href="/2019/11/06/bem%E8%A7%84%E8%8C%83/" data-enable="true">

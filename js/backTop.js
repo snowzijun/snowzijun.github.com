@@ -6,7 +6,8 @@
       time = 200;
     let running = false;
 
-    return () => {
+    return (e) => {
+      e.preventDefault()
       if(running) return;
       running = true;
 

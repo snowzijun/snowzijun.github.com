@@ -19,6 +19,7 @@
     ];
 
   searchBtn.addEventListener('click', (e) => {
+    e.preventDefault()
     layer.style.display = 'block';
     searchDOM.style.display = 'flex';
     inputDOM.focus();

@@ -1,4 +1,4 @@
-(() => {
+;(() => {
   const auth = () => {
     const day = 60 * 60 * 24 * 1000;
     const { is_post, lock, passwords, root } = window.AD_CONFIG;
